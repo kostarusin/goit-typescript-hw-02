@@ -1,4 +1,7 @@
-let anything = -20;
+
+type Anything = any;
+
+let anything: Anything = -20;
 anything = 'Text';
 anything = {};
 
